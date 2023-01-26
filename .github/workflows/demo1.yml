@@ -3,9 +3,13 @@ on:
   push:
     branches:
       - 'main'
+  pull_request:
+    types: [opened, reopend, review_requested]      
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "Hello World! "
+        run: echo "my name is ramya vemula "
+          
