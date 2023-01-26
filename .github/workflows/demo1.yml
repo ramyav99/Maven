@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - 'main'
-
+  pull-request:
+    types: [opend, reopend]      
 jobs:
   my-job:
     runs-on: ubuntu-latest
