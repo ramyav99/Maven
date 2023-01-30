@@ -1,6 +1,9 @@
 name: Java CI maven
 
-on: [push]
+on: 
+  push:
+    branches:
+      - 'main'
 
 jobs:
   build:

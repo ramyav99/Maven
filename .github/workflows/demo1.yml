@@ -14,3 +14,10 @@ jobs:
           echo "Hello World! "
           echo "my name is ramya vemula "
           
+  my-job2:
+    runs-on: windows-latest
+    steps:
+      - name: my-step
+        run: |
+          echo "Hello World! "
+          echo "my name is ramya vemula "
