@@ -15,6 +15,7 @@ jobs:
           echo "my name is ramya vemula "
           
   my-job2:
+    needs: my-job
     runs-on: windows-latest
     steps:
       - name: my-step
